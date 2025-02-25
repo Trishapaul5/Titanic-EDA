@@ -12,6 +12,7 @@ To uncover key factors influencing passenger survival, this project aims to perf
 This project aims to provide a statistical understanding of the Titanic disaster. More importantly, it highlights broader societal themes of privilege, vulnerability, and survival dynamics, thereby contributing to a deeper understanding of the historical event.
 
 General Overview of the Titanic Dataset
+
 The dataset contained information about 891 passengers, with 12 key features, including:
 Demographics (Age, Sex, Embarked)
 Travel Information (Pclass, Ticket, Fare, Cabin)
@@ -20,6 +21,7 @@ Survival Status (0 = Not Survived, 1 = Survived)
 Missing values were found in Age, Embarked, and Cabin, and we handled them by imputing median and mode values. Unnecessary columns like Ticket, Name, and Cabin were dropped.
 ________________________________________
  Key Insights from Visualizations
+ 
 (a) Survival Rate
 🔹 38.4% of passengers survived, while 61.6% perished (from the pie chart).
 🔹 This shows that more than half of the people did not survive the Titanic disaster.
@@ -67,6 +69,7 @@ Survival and Pclass (-0.34) → Higher class increased survival.
  Insight: Gender, class, and fare were the most important survival factors.
 ________________________________________
 Final Conclusion
+
 Who Had the Best Chance of Survival?
 Female passengers, especially those in 1st class.
 Children (<10 years old).
